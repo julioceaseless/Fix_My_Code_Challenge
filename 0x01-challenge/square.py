@@ -1,12 +1,17 @@
 #!/usr/bin/python3
+"""
+fix the square class
+"""
 
 
 class square():
+    """ class class """
 
     width = 0
     height = 0
 
     def __init__(self, *args, **kwargs):
+        """ initialize class """
         for key, value in kwargs.items():
             setattr(self, key, value)
 
@@ -22,7 +27,7 @@ class square():
 
 
 if __name__ == "__main__":
-
+    """ run when called directly"""
     s = square(width=12, height=9)
     print(s)
     print(s.area_of_my_square())
