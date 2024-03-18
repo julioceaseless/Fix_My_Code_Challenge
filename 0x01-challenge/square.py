@@ -2,7 +2,7 @@
 """ lets do some geometry """
 
 
-class Square():
+class Square:
     """ calculates various properties if a square """
     width = 0
     height = 0
