@@ -4,7 +4,7 @@ fix the square class
 """
 
 
-class Square():
+class Square:
     """ class square """
 
     width = 0
